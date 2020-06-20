@@ -26,6 +26,7 @@ class _StatefulStateCupertino extends State<CupertinoListTile> {
     @override
     Widget build(BuildContext context) {
         return Container(
+            margin: const EdgeInsets.fromLTRB(0.0, 4.0, 0.0, 4.0),
             child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[

@@ -40,7 +40,7 @@ class _RandomWordsState extends State<RandomWords> {
                 itemBuilder: (context, i) {
                     if (i.isOdd) return SizedBox(
                         width: 1.0,
-                        height: 1.0,
+                        height: 0.1,
                         child: Container(
                             color: CupertinoColors.black,
                         ),
@@ -60,7 +60,7 @@ class _RandomWordsState extends State<RandomWords> {
         return CupertinoListTile(
             leading: Text('Lead'),
             title: pair.asPascalCase,
-            subtitle: 'SubTitile',
+            subtitle: 'SubTitle',
             trailing: Text('Trail'),
         );
     }
